@@ -1,0 +1,25 @@
+.container{
+    height: 83px;
+    width: 100%;
+    background-color: rgb(0, 255, 68);
+    display: flex;
+    text-align: center;
+    color: #FFFFFF;
+}
+.contacts{
+    flex: 50%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.tenders{
+    flex: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.tenders > .h2{
+    color:#FFFFFF
+}
