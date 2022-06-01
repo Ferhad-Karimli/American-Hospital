@@ -5,9 +5,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaInstagramSquare, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import  Tenders  from "../TendersData/tenders.json"
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
+console.log(Tenders,"tenders")
   return (
     <div
       className={className}
@@ -38,6 +40,8 @@ export default function Main() {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
+
+  console.log(Tenders,"tenders")
 
   return (
     <div className={style.container}>

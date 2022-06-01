@@ -1,9 +1,25 @@
 [{
-
-"title":"Tender 1",
-"tenderInfo":"Tender haqqinda melumat"
-
-
-
-
-}]
+        "id": "1",
+        "title": "Tender 1",
+        "tenderInfo": "Tender haqqinda etrafli melumatlar",
+        "image": []
+    },
+    {
+        "id": "2",
+        "title": "Tender 2",
+        "tenderInfo": "Tender haqqinda etrafli melumatlar",
+        "image": []
+    },
+    {
+        "id": "3",
+        "title": "Tender 3",
+        "tenderInfo": "Tender haqqinda etrafli melumatlar",
+        "image": []
+    },
+    {
+        "id": "4",
+        "title": "Tender 4",
+        "tenderInfo": "Tender haqqinda etrafli melumatlar",
+        "image": []
+    }
+]
