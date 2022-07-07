@@ -2,24 +2,24 @@
         "id": "1",
         "title": "Tender 1",
         "tenderInfo": "Tender haqqinda etrafli melumatlar",
-        "image": []
+        "image": "/assets/tenderone.jpg"
     },
     {
         "id": "2",
         "title": "Tender 2",
         "tenderInfo": "Tender haqqinda etrafli melumatlar",
-        "image": []
+        "image": "/assets/tendertwo.jpg"
     },
     {
         "id": "3",
         "title": "Tender 3",
         "tenderInfo": "Tender haqqinda etrafli melumatlar",
-        "image": []
+        "image": "/assets/tenderthree.jpg"
     },
     {
         "id": "4",
         "title": "Tender 4",
         "tenderInfo": "Tender haqqinda etrafli melumatlar",
-        "image": []
+        "image": "/assets/tenderfour.jpg"
     }
 ]

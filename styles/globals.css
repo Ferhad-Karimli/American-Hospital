@@ -52,10 +52,94 @@ html {
 .btn:hover {
   background: var(--color-white);
   color: var(--color-bg);
-  border-color: transparent;
+  border-color: #ffff;
 }
 
 .btn-primary {
-  background: var(--color-primary);
-  color: var(--color-bg);
+  background:    #151B8D;
+  color: #ffff;
+}
+
+
+
+
+.react__slick__slider__parent {
+  position: relative;
+}
+
+.react__slick__slider__parent .slick-prev,
+.react__slick__slider__parent .slick-next {
+  position: absolute;
+  top: 50%;
+}
+.react__slick__slider__parent .slick-prev {
+  color: black;
+  z-index: 1;
+}
+.react__slick__slider__parent .slick-next {
+  border-radius: 50%;
+  color: black;
+  z-index: 1;
+}
+
+.react__slick__slider__parent .slick-prev:before, .slick-next:before {
+  color: black;
+}
+
+
+
+.slick-dots li button:before {
+  /* font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute; */
+  top: 20 !important;
+  left: 10 !important;
+  width: 40px !important;
+  height: 40px !important;
+  /* content: '•';
+  text-align: center;
+  opacity: .25; */
+  color: rgb(189, 16, 16) !important;
+
+}
+.swiper-button-next , .swiper-button-prev {
+  color: #DC3545 !important; 
+}
+
+/* form global css */
+.mantine-TextInput-wrapper{
+  height: 60px !important;
+  width: 400px !important;
+}
+.mantine-TextInput-defaultVariant {
+  height: 50px !important;
+}
+.mantine-Select-defaultVariant {
+  height: 50px !important;
+  width: 400px !important;
+}
+.mantine-uquezq {
+  display: none !important;
+}
+.mantine-Textarea-defaultVariant{
+  width: 400px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .mantine-TextInput-wrapper{
+    height: 60px !important;
+    width: 320px !important;
+  }
+  .mantine-Select-defaultVariant {
+    height: 50px !important;
+    width: 320px !important;
+  }
+  .mantine-uquezq {
+    display: none !important;
+  }
+  .mantine-Textarea-defaultVariant{
+    width: 320px !important;
+  }
+
 }

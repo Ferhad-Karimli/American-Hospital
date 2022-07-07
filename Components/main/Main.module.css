@@ -23,16 +23,16 @@
    
 }
 .imageContainer{
-    width:100%;
+    width:80%;
     height:800px !important ;
 }
 .contact{
     position: absolute;
-    top: 20%;
+    top: 22%;
     z-index: 998;
-    right: 12%;
-    width: 90px;
-    height: 40px;
+    right: 8%;
+    width: 110px;
+    height: 50px;
     background-color: #DC3545;
     display:flex;
     align-items: center;
@@ -48,10 +48,38 @@
     top: 20%;
     z-index: 997;
     top: 10%;
-    right: 15%;
+    right: 8%;
     width: 110px;
     height: 50px;
     background-color: #DC3545;
+    border-radius: 12px;
+    color: #ffffff;
+}
+
+.seemore{
+    position: absolute;
+    top: 60%;
+    z-index: 998;
+    left: 12%;
+    width: 150px;
+    height: 50px;
+    background-color: #DC3545;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    color: #ffffff;
+}
+.title{
+    position: absolute;
+    top: 45%;
+    z-index: 998;
+    left: 10.1%;
+    width: 300px;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 12px;
     color: #ffffff;
 }

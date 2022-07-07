@@ -1,0 +1,37 @@
+/* .container {
+  background-color: #5254a5;
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container > h1 {
+  padding-top: 10px;
+}
+.container > h1:nth-child(2) {
+  padding-bottom: 10px !important;
+}
+.image {
+  width: 100%;
+  height: 600px;
+}
+.tender{
+    position: absolute;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    top: 20%;
+    z-index: 997;
+    top: 20%;
+    right: 15%;
+    width: 120px;
+    height: 50px;
+    background-color: #DC3545;
+    border-radius: 12px;
+    color: #ffffff;
+    text-align:center;
+    cursor: pointer;
+ 
+} */

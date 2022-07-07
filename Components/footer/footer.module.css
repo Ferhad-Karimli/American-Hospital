@@ -1,20 +1,46 @@
-.container{
-    height: 300px;
-    width: 100%;
-    background-color: #2e3a59 !important;
-    position: absolute;
+.container {
+  height: 190px;
+  width: 100%;
+  position: absolute;
+  background-color:  #151B8D;
 }
-.contact{
-    width: 270px;
-    height: 50px;
-    background-color: #8402D4;
-    margin: 0 auto;
-    top: 15%;
-    position: relative;
+.contact {
+  width: 270px;
+  height: 50px;
+  margin: 0 auto;
+  top: 15%;
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  color: #ffff;
+}
+.contact_info {
+  margin-top: 70px;
+  text-align: center;
+}
+.contact_info > h2 {
+  color: #ffff;
+}
+.contac_detailed{
     display: flex;
-    text-align: center;
     align-items: center;
     justify-content: center;
-    border-radius: 12px;
-    color: #ffff;
+}
+.location {
+  color: #ffffff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px !important;
+  margin-top: 12px !important;
+}
+.streetName{
+    display: inline-block;
+    margin-left: 20px !important;
+}
+.footerlogo{
+  display: none !important;
 }

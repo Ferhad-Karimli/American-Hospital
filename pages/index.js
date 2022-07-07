@@ -6,6 +6,9 @@ import Footer from "../Components/footer/footer";
 import style  from "../Components/main/Main.module.css"
 import { FaInstagramSquare, FaFacebook, FaWhatsapp} from "react-icons/fa";
 import Contact from "../Components/Contact/Contact";
+import SimpleSlider from "../Components/slider";
+import DemoCarousel from "../Components/slider";
+import Slider from "../Components/slider/index"
 export default function Home() {
   return (
     <>
@@ -15,10 +18,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Main />
-        <Tender />
-        <Contact />
-        <Footer />
+        <Slider />
+        {/* <Main /> */}
+        {/* <Tender /> */}
+
+        {/* <SimpleSlider /> */}
+
+     
+               <Footer />
+
+               {/* <DemoCarousel /> */}
       </main>
       <footer></footer>{" "}
     </>

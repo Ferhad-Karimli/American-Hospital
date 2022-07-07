@@ -1,0 +1,43 @@
+.navbar {
+  height: 90px;
+  width: 100%;
+  background:  #151b8d;
+  color: #ffff;
+  text-align: center;
+}
+.navbarlogo{
+  position: absolute;
+  width: 130px;
+  height: 75px;
+  left: 6% !important;
+  margin-top: 5px !important;
+}
+.adress,
+.number {
+  padding-top: 20px;
+}
+.title {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #ffff;
+  padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  /* .navbarlogo {
+    top: 10%;
+    left: 8%;
+  } */
+  .navbarlogo{
+    position: absolute;
+    width: 115px;
+    height: 65px;
+    left: 6% !important;
+    margin-top: 13px !important;
+  }
+  .adress,
+.number {
+
+  margin-left: 110px !important;
+}
+}
